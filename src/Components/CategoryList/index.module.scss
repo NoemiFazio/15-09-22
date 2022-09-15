@@ -1,0 +1,12 @@
+.CategoryList {
+  display: flex;
+  justify-content: center;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    margin: 40px 0px;
+    gap: 50px;
+    padding: 0;
+  }
+}

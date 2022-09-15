@@ -1,0 +1,35 @@
+.MealList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 45px;
+    padding: 0;
+    width: 1000px;
+  }
+  .button {
+    background-color: rgb(216, 255, 213);
+    border: 1px solid rgb(149, 212, 144);
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(199, 249, 195);
+      border: 1px solid rgb(149, 212, 144);
+    }
+
+    .link {
+      color: rgb(35, 33, 110);
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+    }
+  }
+}

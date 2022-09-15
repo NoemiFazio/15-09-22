@@ -1,0 +1,33 @@
+.ciao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid red;
+
+  .colAuto {
+    border: 5px solid green;
+  }
+
+  .img {
+    width: 200px;
+  }
+  .col {
+    border: 2px solid pink;
+  }
+
+  .title {
+    color: red;
+  }
+
+  .fs {
+    color: blue;
+  }
+
+  .ul {
+    color: orange;
+  }
+
+  .li {
+    color: aquamarine;
+  }
+}
